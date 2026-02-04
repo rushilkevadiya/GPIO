@@ -55,7 +55,7 @@ Load and Test Module
 
 1. Insert the module:
 ```
-sudo insmod gpioctrl.ko
+sudo insmod gpio_module.ko
 sudo dmesg | tail
 ````
 
@@ -78,7 +78,7 @@ cat /proc/button             # Verify state
 
 4. Interact with Button:
 ```
-sudo rmmod gpioctrl
+sudo rmmod gpio_module
 sudo dmesg | tail
 ```
 
